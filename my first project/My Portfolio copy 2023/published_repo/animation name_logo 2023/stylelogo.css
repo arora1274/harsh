@@ -1,0 +1,123 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #000;
+}
+.container-logo{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transform-origin: top left;
+    /* transform: rotate(-10deg); */
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* background-color: #fff;  */
+}
+
+.container-logo span{
+    width: 50px;
+    height: 0;
+    background: -webkit-linear-gradient(bottom left, rgb(36, 41, 109), rgb(133, 133, 110));
+    position: absolute;
+    
+}
+.left{
+    left: 0;
+    bottom: 0;
+    transform: skewX(-20deg);
+    transform-origin: top right;
+    border: 2px solid rgb(0, 255, 221);
+    animation: anim 1s linear forwards;
+    animation-delay: 0.5s;
+    
+
+}
+.middle{
+    top: 0;
+    left: 0;
+   transform: skewX(20deg);
+   transform-origin: top right;
+   border: 2px solid rgb(0, 255, 221);
+   
+   
+   animation: anim 1s linear forwards;
+   animation-delay: 1.2s;
+
+}
+
+
+.container-logo span:nth-of-type(3){
+   /*  height: 50%; */
+    height: 0;
+}
+ .right{
+    top: 50%;
+    left: 2%;
+    /* transform: skewX(-50deg); */
+    transform: rotate(-90deg);
+    z-index: -1;
+   border: 2px solid rgb(0, 255, 221);
+    animation: animMiddle 1s linear forwards;
+    animation-delay: 0.8s;
+
+} 
+
+.left-one{
+    left: 50%;
+    bottom: 0;
+    border: 2px solid rgb(0, 255, 221);
+    transform: skewX(0deg);
+    /* transform-origin: top right;  */
+    animation: anim 1s linear forwards;
+    animation-delay: 0.5s;
+    
+
+}
+.container-logo span:nth-of-type(5){
+/* background-color: rgb(255, 38, 0); */
+/* height: 50%; */
+height: 0;
+top: 25%;
+left: 75%;
+z-index: -1;
+}
+
+ .middle-one{
+    transform: rotate(-90deg);
+    border: 2px solid rgb(0, 255, 221);
+    animation: animMiddle 1s linear forwards;
+    animation-delay: 0.8s;
+   
+}
+.right-one{
+    left: 100%;
+    bottom: 0;
+    border: 2px solid rgb(0, 255, 221);
+     transform: skewX(0deg);
+     animation: anim 1s linear forwards;
+     animation-delay: 0.8s;
+     
+
+}
+@keyframes anim{
+    100%{
+        height: 100%;
+
+    }
+       
+}
+@keyframes animMiddle{
+    100%{
+        height: 50%;
+
+    }
+         
+}
