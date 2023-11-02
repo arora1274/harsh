@@ -1,0 +1,29 @@
+.RecipeList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.recipeList_img{
+    height:300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 18px;
+    
+}
+
+.recipeList_name{
+    max-width: 300px;
+    text-align: center;
+    margin: 12px 10px;
+    color: rgb(53, 69, 118);
+    font-weight: 500;
+}
+
+.btn-secondary{
+    background-color: rgb(89, 86, 162);
+    font-size: 15px;
+    border-radius: 10px;
+}

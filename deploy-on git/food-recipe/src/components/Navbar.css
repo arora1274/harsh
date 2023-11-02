@@ -1,0 +1,12 @@
+
+.navbar{
+    background-color: rgb(116, 92, 211);
+
+}
+.nav-link, .navbar-brand{
+    color: #edeaea !important;
+     
+}
+.navbar-brand{
+    font-weight: 500;
+}
