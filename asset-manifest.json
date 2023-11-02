@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/harsh/static/css/main.05919bc0.css",
+    "main.js": "/harsh/static/js/main.68c09483.js",
+    "index.html": "/harsh/index.html",
+    "main.05919bc0.css.map": "/harsh/static/css/main.05919bc0.css.map",
+    "main.68c09483.js.map": "/harsh/static/js/main.68c09483.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05919bc0.css",
+    "static/js/main.68c09483.js"
+  ]
+}
